@@ -28,7 +28,7 @@ class Generic:
                 # print(n_row)
                 n_row += 1
                 yield generic
-
+    """
     @classmethod
     def export_schema_to_create_confluent_schema(cls, file_path):
         columns = next(pd.read_csv(file_path, chunksize=10)).columns
@@ -60,7 +60,7 @@ class Generic:
 
         print(schema)
         return schema
-        
+    """
 
     @classmethod
     def get_schema_to_produce_consume_data(cls, file_path):
