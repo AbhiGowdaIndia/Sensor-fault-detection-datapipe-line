@@ -1,0 +1,7 @@
+.idea
+sensor-datapipe-env/
+*.egg-info
+logs/*
+*.log
+*.pyc
+Credential.md
