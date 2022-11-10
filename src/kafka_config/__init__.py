@@ -36,6 +36,3 @@ def schema_config():
 
     }
 
-if __name__ == '__main__':
-    sasl_conf()
-
